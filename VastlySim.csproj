@@ -27,4 +27,8 @@
       <None Remove="VastlySimTests\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="src\" />
+    </ItemGroup>
+
 </Project>
