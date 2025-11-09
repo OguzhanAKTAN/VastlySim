@@ -6,3 +6,4 @@ riderModule.iml
 /Benchmarks/BenchmarkDotNet.Artifacts/
 /.idea/
 *.DotSettings.user
+/VastlySim.Benchmarks/

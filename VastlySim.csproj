@@ -13,18 +13,24 @@
       <Compile Remove="Benchmarks\**" />
       <Compile Remove="Tests\**" />
       <Compile Remove="VastlySimTests\**" />
+      <Compile Remove="VastlySim.Benchmarks\**" />
+      <Compile Remove="VastlySim.Tests\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Benchmarks\**" />
       <EmbeddedResource Remove="Tests\**" />
       <EmbeddedResource Remove="VastlySimTests\**" />
+      <EmbeddedResource Remove="VastlySim.Benchmarks\**" />
+      <EmbeddedResource Remove="VastlySim.Tests\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Benchmarks\**" />
       <None Remove="Tests\**" />
       <None Remove="VastlySimTests\**" />
+      <None Remove="VastlySim.Benchmarks\**" />
+      <None Remove="VastlySim.Tests\**" />
     </ItemGroup>
 
     <ItemGroup>
