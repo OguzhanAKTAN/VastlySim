@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VastlySim", "VastlySim.csproj", "{8E265F64-6229-4A99-9BEC-9E662986D966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VastlySimTests", "VastlySimTests\VastlySimTests.csproj", "{238416A7-8D58-48DC-AC22-71B8215378AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{238416A7-8D58-48DC-AC22-71B8215378AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{BADD8FC4-1472-4493-9DC8-E1C32433F4AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{238416A7-8D58-48DC-AC22-71B8215378AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238416A7-8D58-48DC-AC22-71B8215378AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238416A7-8D58-48DC-AC22-71B8215378AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADD8FC4-1472-4493-9DC8-E1C32433F4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADD8FC4-1472-4493-9DC8-E1C32433F4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADD8FC4-1472-4493-9DC8-E1C32433F4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADD8FC4-1472-4493-9DC8-E1C32433F4AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
