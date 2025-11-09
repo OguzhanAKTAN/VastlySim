@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VastlySim", "VastlySim.csproj", "{8E265F64-6229-4A99-9BEC-9E662986D966}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VastlySim", "src\VastlySim\VastlySim.csproj", "{8E265F64-6229-4A99-9BEC-9E662986D966}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VastlySim.Benchmarks", "benchmarks\VastlySim.Benchmarks\VastlySim.Benchmarks.csproj", "{A9C3BC32-1D71-4099-A776-0AF41650C95A}"
 EndProject
