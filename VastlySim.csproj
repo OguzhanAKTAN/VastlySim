@@ -10,6 +10,21 @@
       <Compile Update="Tests\UnitTest1.cs">
         <Link>VastlySimTests\UnitTest1.cs</Link>
       </Compile>
+      <Compile Remove="Benchmarks\**" />
+      <Compile Remove="Tests\**" />
+      <Compile Remove="VastlySimTests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Benchmarks\**" />
+      <EmbeddedResource Remove="Tests\**" />
+      <EmbeddedResource Remove="VastlySimTests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Benchmarks\**" />
+      <None Remove="Tests\**" />
+      <None Remove="VastlySimTests\**" />
     </ItemGroup>
 
 </Project>
