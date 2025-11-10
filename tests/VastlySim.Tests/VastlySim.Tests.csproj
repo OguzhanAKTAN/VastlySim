@@ -22,4 +22,8 @@
         <Using Include="NUnit.Framework"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\VastlySim\VastlySim.csproj" />
+    </ItemGroup>
+
 </Project>
