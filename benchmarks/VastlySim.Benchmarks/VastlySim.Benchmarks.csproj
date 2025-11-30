@@ -12,4 +12,8 @@
       <PackageReference Include="BenchmarkDotNet" Version="0.15.6" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\VastlySim\VastlySim.csproj" />
+    </ItemGroup>
+
 </Project>

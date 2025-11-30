@@ -3,6 +3,6 @@ namespace VastlySim.InventoryServices.Policies.Capacity;
 
 public interface ICapacityPolicy
 {
-    bool CanAdd(in InventoryServices.Data.Inventory inv, ItemId item, float quantity);
-    bool CanRemove(in InventoryServices.Data.Inventory inv, ItemId item, float quantity);
+    bool CanAdd(in Inventory inv, ItemId item, float quantity);
+    bool CanRemove(in Inventory inv, ItemId item, float quantity);
 }

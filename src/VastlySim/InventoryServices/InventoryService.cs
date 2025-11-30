@@ -1,7 +1,7 @@
-﻿using VastlySim.InventoryServices.Data;
-using VastlySim.InventoryServices.Policies.Capacity;
-using VastlySim.InventoryServices.Policies.Search;
-namespace VastlySim.InventoryServices;
+﻿namespace VastlySim.InventoryServices;
+using Data;
+using Policies.Capacity;
+using Policies.Search;
 
 public class InventoryService
 {
