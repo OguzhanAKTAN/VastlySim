@@ -26,4 +26,8 @@
       <ProjectReference Include="..\..\src\VastlySim\VastlySim.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="ExchangeSystems\" />
+    </ItemGroup>
+
 </Project>

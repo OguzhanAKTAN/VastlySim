@@ -1,4 +1,4 @@
-﻿namespace VastlySim.ExchangeSystems.OrderBook;
+﻿namespace VastlySim.ExchangeSystems.OrderBook.Data;
 
 public enum OrderType
 {

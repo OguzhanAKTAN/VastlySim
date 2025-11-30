@@ -1,4 +1,5 @@
-﻿namespace VastlySim.ExchangeSystems.OrderBook;
+﻿using VastlySim.ExchangeSystems.OrderBook.Data;
+namespace VastlySim.ExchangeSystems.OrderBook.Core;
 
 public interface IPriceExecutionModel
 {

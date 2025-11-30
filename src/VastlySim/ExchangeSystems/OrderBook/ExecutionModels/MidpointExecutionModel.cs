@@ -1,4 +1,6 @@
-﻿namespace VastlySim.ExchangeSystems.OrderBook.ExecutionModels;
+﻿using VastlySim.ExchangeSystems.OrderBook.Core;
+using VastlySim.ExchangeSystems.OrderBook.Data;
+namespace VastlySim.ExchangeSystems.OrderBook.ExecutionModels;
 
 public class MidpointExecutionModel : IPriceExecutionModel
 {
