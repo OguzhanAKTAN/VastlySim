@@ -44,7 +44,7 @@ namespace VastlySimTests.InventoryServices
 
             bool ok = _service.Add(ref inv, Apple, 5);
 
-            Assert.IsTrue(ok);
+            Assert.That(ok);
             Assert.That(inv.Stacks[0].Quantity, Is.EqualTo(15));
         }
 
@@ -55,7 +55,7 @@ namespace VastlySimTests.InventoryServices
 
             bool ok = _service.Add(ref inv, Bread, 5);
 
-            Assert.IsFalse(ok);
+            Assert.That(!ok);
         }
 
         [Test]
@@ -68,7 +68,7 @@ namespace VastlySimTests.InventoryServices
 
             bool ok = svc.Add(ref inv, Apple, 3);
 
-            Assert.IsFalse(ok);
+            Assert.That(!ok);
             Assert.That(inv.Stacks[0].Quantity, Is.EqualTo(10));
         }
 
@@ -89,7 +89,7 @@ namespace VastlySimTests.InventoryServices
 
             bool ok = _service.Remove(ref inv, Apple, 4);
 
-            Assert.IsTrue(ok);
+            Assert.That(ok);
             Assert.That(inv.Stacks[0].Quantity, Is.EqualTo(6));
         }
 
@@ -100,7 +100,7 @@ namespace VastlySimTests.InventoryServices
 
             bool ok = _service.Remove(ref inv, Apple, 5);
 
-            Assert.IsFalse(ok);
+            Assert.That(!ok);
         }
 
         [Test]

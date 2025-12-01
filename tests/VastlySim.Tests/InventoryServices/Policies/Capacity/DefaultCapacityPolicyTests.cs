@@ -12,7 +12,7 @@ namespace VastlySimTests.InventoryServices.Policies.Capacity
 
             bool ok = policy.CanAdd(inv, new ItemId(1), 10);
 
-            Assert.IsTrue(ok);
+            Assert.That(ok);
         }
 
         [Test]
@@ -23,7 +23,7 @@ namespace VastlySimTests.InventoryServices.Policies.Capacity
 
             bool ok = policy.CanRemove(inv, new ItemId(1), 5);
 
-            Assert.IsTrue(ok);
+            Assert.That(ok);
         }
     }
 }
